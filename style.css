@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    display:grid;
+    place-items:center;
+    font-family: "Roboto Condensed";
+    background-color: #d6d3d1;
+}
+
+.download-btn{
+    background:linear-gradient(45deg,#3f3f46,#18181b,#3f3f46);
+    color: #d6d3d1;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius:4px;
+}
